@@ -1,0 +1,32 @@
+.sec5left{
+     width: 30%;
+}
+
+.sec5right{
+     width: 50%;
+}
+
+.sec5right img{
+     width: 100%;
+}
+
+.sec5btn {
+     padding: 14px 20px;
+     margin-top: 50px;     
+     position: right;
+     color: white;
+     border: 1px solid transparent;
+     border-radius: 10px;
+     outline: transparent;
+     background-color: #0c70ce;
+     font-size: 15px;
+     font-family: 'Rubik', sans-serif;
+     letter-spacing: .8px;
+     cursor: pointer;
+     transition: all .4s ease;
+     text-transform: uppercase;
+}
+ .sec5btn:hover {
+     color: #ffffff;
+     background-color: #054b8c;
+}

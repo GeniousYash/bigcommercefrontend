@@ -1,0 +1,122 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     width: 100vw;
+}
+
+a{
+     text-decoration: none;
+     color: #000;
+}
+
+.mainNavdiv{
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+}
+
+.firstnavsection{
+     width: 100%;
+     height: 30px;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     align-items: center;
+     background-color: #F6F7F9;
+}
+
+.firstnavleft{
+     display: flex;
+     flex-direction: row;
+     margin-left: 100px;
+}
+
+.firstnavleft h1{
+     font-size: 12px;
+     margin-left: 50px;
+}
+
+.firstnavright{
+     margin-right: 100px;
+}
+
+.firstnavright a{
+     margin-right: 50px;
+}
+
+
+.navbar-section {
+     padding: 0 32px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 80px;
+     color: #000;
+     background-color: white;
+}
+
+.navbar-section>div{
+     display: flex;
+     flex-direction: row;
+     margin-left: 60px;
+}
+
+.navbar-title a {
+     color: #1A8EFD;
+     letter-spacing: .6px;
+     text-decoration: none;
+}
+.navbar-title {
+     font-family: 'Poppins', sans-serif;
+}
+ .navbar-sign {
+     color: #54de54;
+     font-family: Cambria, sans-serif;
+     font-size: 40px;
+     font-weight: bold;
+}
+ .navbar-items {
+     list-style-type: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: 62px;
+     gap: 32px;
+     font-family: 'Rubik', sans-serif;
+}
+ .navbar-items > li {
+     list-style-type: none;
+}
+ .navbar-links {
+     text-decoration: none;
+     color: black;
+     font-size: 12px;
+     letter-spacing: .8px;
+}
+ .navbar-links:hover {
+     color: #0cc2ea;
+}
+ .navbar-btn {
+     padding: 14px 20px;
+     margin-right: 100px;
+     position: right;
+     color: white;
+     border: 1px solid transparent;
+     border-radius: 10px;
+     outline: transparent;
+     background-color: #1A8EFD;
+     font-size: 15px;
+     font-family: 'Rubik', sans-serif;
+     letter-spacing: .8px;
+     cursor: pointer;
+     transition: all .4s ease;
+     text-transform: uppercase;
+}
+ .navbar-btn:hover {
+     color: #ffffff;
+     background-color: #0b6bc5;
+}

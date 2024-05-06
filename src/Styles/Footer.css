@@ -1,0 +1,36 @@
+.footer{
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color:#000;
+     color: #fff;
+}
+
+.footerup{
+     width: 65vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between; 
+     margin-top: 150px;   
+}
+
+.footerup div p{
+     margin-top: 15px;
+     color: rgb(181, 181, 181);
+}
+
+.footerdown{
+     width: 65vw;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between; 
+     margin-top: 50px; 
+     margin-bottom: 150px;
+}
+
+.footerdown div p{
+     margin-top: 15px;
+     color: rgb(181, 181, 181);
+}

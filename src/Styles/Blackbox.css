@@ -1,0 +1,39 @@
+.bb{
+     width: 100vw;
+     height: auto;
+     padding-top: 100px;
+     background-color: #000;
+     color: #fff;
+}
+.bbh3,.bbh4{
+     text-align: center;
+     margin-top: 10px;
+}
+
+.bbdiv1{
+     width: 85vw;
+     height: auto;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: row;
+     gap: 40px;
+     margin-top: 50px;
+     padding-bottom: 50px;
+}
+
+.bbdiv1 .card{
+     width: 40%;
+     height: auto;
+     padding: 40px 40px;
+     background-color: #23212B;
+}
+
+.cardDown{
+     margin-top: 40px !important;
+}
+
+.carddown a p{
+     color: #03EAB8;
+}

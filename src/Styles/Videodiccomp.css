@@ -1,0 +1,72 @@
+.vidmaindiv{
+     width: 100vw;
+     display: flex;
+     flex-direction: column;
+     background: rgb(16,30,69);
+     background: linear-gradient(93deg, rgba(16,30,69,1) 0%, rgba(14,59,61,1) 90%);
+     color: white
+}
+
+.div1{
+     width: 80vw;
+     margin: auto;
+     display: flex;
+     font-size: 20px;
+     border: 1px solid #6e6e6e;
+     border-radius: 5px;
+     padding: 10px;
+     margin-top: 30px;
+     background: rgb(38,49,82);
+     background: linear-gradient(93deg, rgba(38,49,82,1) 0%, rgba(85,115,117,1) 90%);
+     color: white;
+}
+
+.div2{
+     width: 80vw;
+     height: 80vh;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin: auto;
+}
+
+.leftside{
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+     align-items: start;
+}
+
+.leftsidetext{
+     display: flex ;
+     flex-direction: column ;
+}
+
+.leftsidetext h1{
+     font-size: 80px !important;
+}
+
+.btndiv{
+     width: 500px;
+     display: flex;
+     flex-direction: row !important;
+     gap: 50px;
+}
+
+.btndiv button{
+     border: none;
+     border-radius: 5px;
+     font-size: 20px;
+}
+
+.rightside{
+     width: 50%;
+     height: 100%;
+     display: flex !important;
+     align-items: center !important;
+     justify-content: end ;
+}
+
+.rightside iframe{
+     border-radius: 12px;
+}
